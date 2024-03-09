@@ -34,6 +34,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { useState } from "react";
+import { useToast } from "@chakra-ui/react";
 import TopBanner from "../components/TopBanner";
 import { WarningIcon, ChatIcon, PhoneIcon } from "@chakra-ui/icons";
 
@@ -45,10 +46,19 @@ function PatientSurvey() {
   const [hasCough, setHasCough] = useState(false);
   const [painLevel, setPainLevel] = useState("1");
   const [comments, setComments] = useState("");
+  const toast = useToast();
 
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log({ name, age, condition, hasFever, hasCough, painLevel });
+
+    toast({
+      title: "Daily Form submitted",
+      description: "Your responses have been recorded.",
+      status: "success",
+      duration: 5000,
+      isClosable: true,
+    });
   };
 
   return (

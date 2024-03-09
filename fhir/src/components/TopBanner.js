@@ -13,6 +13,7 @@ import {
   MenuOptionGroup,
   MenuDivider,
 } from "@chakra-ui/react";
+import { WarningIcon, ChatIcon, PhoneIcon } from "@chakra-ui/icons";
 
 const TopBanner = () => {
   return (
@@ -45,7 +46,7 @@ const TopBanner = () => {
         </MenuButton>
         <MenuList bg="gray.400">
           <MenuItem bg="gray.400"> View Profile </MenuItem>
-          <MenuItem bg="gray.400"> Settings </MenuItem>
+          <MenuItem bg="gray.400"> Home </MenuItem>
           <MenuItem bg="gray.400"> View GP </MenuItem>
         </MenuList>
       </Menu>
