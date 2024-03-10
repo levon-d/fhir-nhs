@@ -193,7 +193,7 @@ function Doc(){
                       <StatNumber>5</StatNumber>
                       <StatHelpText>
                           <div>Dr. Kostas Demiris requested to help</div>
-                          <div>with Mr. Marwan Yassini's surgery </div>
+                          <div>with Mr. Marwan Yassini's surgery.</div>
                       </StatHelpText>
                     </Stat>
                   </StatGroup>
