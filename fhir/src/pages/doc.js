@@ -169,7 +169,7 @@ function Doc(){
                       <StatNumber>4</StatNumber>
                       <StatHelpText>
                           <div>2 days ago, Dr. Lenart </div>
-                          <div>Dolinor discovered... </div>
+                          <div>Dolinar discovered... </div>
                       </StatHelpText>
                     </Stat>
                   </StatGroup>
